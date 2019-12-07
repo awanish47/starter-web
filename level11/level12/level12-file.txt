@@ -1,0 +1,4 @@
+finding from line- 5 to 10
+salary>average salary
+time difference comparison
+substr instr
