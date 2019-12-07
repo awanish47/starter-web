@@ -1,0 +1,18 @@
+
+Apache Sqoop is import/export data from RDMS to HDFS and HDFS to RDBMS vice versa using Sqoop commands in Big data environment.
+
+Simple steps to Installation of Sqoop on Ubuntu 16.04
+Step 1: First, step to download Sqoop tarball from Apache mirrors website
+
+Step2: After downloading the tarball file then change the permissions of the tarball
+
+Step3: Changed permissions then will extract the tarball using below command:
+tar -xzvf sqoop-1.4.7.bin__hadoop-2.6.0.tar.gz
+otherwise, directly extract the tarball simply.
+
+Step4: Next, we will update the environment variables in bashrc file. Then update SQOOP_HOME & PATH using below command:
+export SQOOP_HOME=/home/sreekanth/Hadoop/sqoop-1.4.7
+export PATH=$PATH:$SQOOP_HOME/bin
+Step5: After updating SQOOP home path then verify whether it is correctly updated or not using below command:
+echo $SQOOP_HOME
+Note: Open the new Terminal ( Command Line) to verify the Sqoop home path is set or not.
