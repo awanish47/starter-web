@@ -22,3 +22,5 @@ Step7: Once completed above steps successfully then to verify Sqoop installation
 
 Step8: To check Sqoop installed on Ubuntu 16.04 by using below command:
 sqoop version
+Summary: Basically, Apache Sqoop is used for data import/export using Sqoop commands. It is installed on top of Hadoop only with help of external database system MYSQL integration. On Ubuntu 16.04 needs some prerequisites like JDK 1.8 or above version and Hadoop then it is simple to install Apache Sqoop with the help Sqoop tarball from apache mirrors official website. Here we provided a Sqoop installation with pictures simple steps for Hadoop admins or Hadoop developers in a single node cluster. Be careful with barshrc file updating because if single word misses, then it is not worked for entire cluster also.
+---file ends here-----
